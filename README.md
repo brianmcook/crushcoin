@@ -5,13 +5,15 @@
 > Featuring the Angular starter kit [Angular 9.1.4](https://angular.io), [Angular CLI 9.1.4](https://cli.angular.io/)
 
 ### Prerequisites
-* Nodejs 12.16.3
+* nginx 1.17.10 
+* nodejs 12.16.3
 * npm 6.14.4
-* Express 4.17.1
-* Typescript 3.8.3
-* Angular 9.1.4
-* Angular CLI  9.1.4
-* Angular Bootstrap 6.1
+* express 4.17.1
+* typescript 3.8.3
+* angular 9.1.4
+* angular cli  9.1.4
+* angular bootstrap 6.1
+* bootstrap 4.4.0
 
 That's all for now!
 
