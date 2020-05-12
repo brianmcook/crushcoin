@@ -29,12 +29,12 @@
             ],
             "styles": [
               "styles.css",
-              "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "./assets/vendor/bootstrap/4.4.1/css/bootstrap.min.css"
             ],
               "scripts": [
-                "node_modules/jquery/dist/jquery.slim.min.js",
-                "node_modules/popper.js/dist/umd/popper.min.js",
-                "node_modules/bootstrap/dist/js/bootstrap.min.js"
+                "./assets/vendor/jquery/3.4.1/jquery.slim.min.js",
+                "./assets/vendor/popper/1.16.0/dist/umd/popper.min.js.map",
+                "./assets/vendor/bootstrap/4.4.1/js/bootstrap.min.js"
               ]
           },
           "configurations": {
