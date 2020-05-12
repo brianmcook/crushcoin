@@ -14,8 +14,7 @@ import { HomeComponent } from './home/home.component';
     imports: [
           BrowserModule,
           FlexLayoutModule,
-          AppRoutingModule,
-          HomeComponent  
+          AppRoutingModule,  
     ],
 
     declarations: [
