@@ -28,13 +28,13 @@
               "src/assets"
             ],
             "styles": [
-              "./src/styles.css",
-              "./src/assets/vendor/bootstrap/4.4.1/css/bootstrap.min.css"
+              "src/styles.css",
+              "src/assets/vendor/bootstrap/4.4.1/css/bootstrap.min.css"
             ],
               "scripts": [
-                "./src/assets/vendor/jquery/3.4.1/jquery-3.4.1.slim.min",
-                "./src/assets/vendor/popper/1.16.0/dist/umd/popper.min.js",
-                "./src/assets/vendor/bootstrap/4.4.1/js/bootstrap.min.js"
+                "src/assets/vendor/jquery/3.4.1/jquery-3.4.1.slim.min",
+                "src/assets/vendor/popper/1.16.0/dist/umd/popper.min.js",
+                "src/assets/vendor/bootstrap/4.4.1/js/bootstrap.min.js"
               ]
           },
           "configurations": {
