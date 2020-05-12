@@ -5,6 +5,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
+import { Routes, RouterModule } from "@angular/router";
+import { Router } from "@angular/router";
 
 @NgModule({
     bootstrap: [
@@ -14,7 +16,8 @@ import { HomeComponent } from './home/home.component';
     imports: [
           BrowserModule,
           FlexLayoutModule,
-          AppRoutingModule,  
+          AppRoutingModule,
+      
     ],
 
     declarations: [

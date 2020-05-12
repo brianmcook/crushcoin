@@ -1,1 +1,76 @@
-<page-router-outlet></page-router-outlet>
+<page-router-outlet><nav class="site-header sticky-top py-1">
+    <div class="container d-flex flex-column flex-md-row justify-content-between">
+      <a class="py-2" href="#" aria-label="Product">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+      </a>
+      <a class="py-2 d-none d-md-inline-block" href="#">About</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Interactive Tours</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Financial Tools</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Blog</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Contact</a>
+      <a class="py-2 d-none d-md-inline-block" href="#">Login</a>
+    </div>
+  </nav>
+  
+  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+      <h1 class="display-4 font-weight-normal">What the heck is a FinTech?</h1>
+      <p class="lead font-weight-normal">Take our fully interactive tour and get up-to-speed with the latest in financial technologies, or FinTech for short!</p>
+      <Button text="Get Started" class="btn btn-outline-secondary" [nsRouterLink]="['/app-fintech']"></Button>
+    </div>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+  </div>
+
+
+<div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+    <blockquote class="twitter-tweet"><p lang="en" dir="ltr">The great people of Pennsylvania want their freedom now, and they are fully aware of what that entails. The Democrats are moving slowly, all over the USA, for political purposes. They would wait until November 3rd if it were up to them. Don’t play politics. Be safe, move quickly!</p>&mdash; Donald J. Trump (@realDonaldTrump) <a href="https://twitter.com/realDonaldTrump/status/1259852364326014978?ref_src=twsrc%5Etfw">May 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="product-device shadow-sm d-none d-md-block"></div>
+    <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+</div>
+
+
+  <footer class="container py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+        <small class="d-block mb-3 text-muted">&copy; 2020 iSystem Networks LLC</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Interactive Tours</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Financial Technology</a></li>
+          <li><a class="text-muted" href="#">Cryptocurrency</a></li>
+          <li><a class="text-muted" href="#">Investments</a></li>
+          <li><a class="text-muted" href="#">Retirement</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Financial Tools</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Fintech</a></li>
+          <li><a class="text-muted" href="#">Crypto</a></li>
+          <li><a class="text-muted" href="#">Invest</a></li>
+          <li><a class="text-muted" href="#">Retire</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Legal</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Privacy Policy</a></li>
+          <li><a class="text-muted" href="#">Terms and Conditions</a></li>
+          <li><a class="text-muted" href="#">Disclosurs</a></li>
+    
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>crushcoin.app</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="text-muted" href="#">Team</a></li>
+          <li><a class="text-muted" href="#">Contact Us</a></li>
+          <li><a class="text-muted" href="#">EMAILFORM1121</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>  
+</page-router-outlet>
