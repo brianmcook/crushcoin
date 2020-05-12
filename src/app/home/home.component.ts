@@ -3,7 +3,6 @@ import { Router } from "@angular/router";
 
 @Component({
     selector: "app-home",
-    moduleId: module.id,
     templateUrl: "./home.component.html",
     styleUrls: ["./home.component.scss"]
 })
