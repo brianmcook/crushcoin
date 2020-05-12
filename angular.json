@@ -32,8 +32,8 @@
               "./assets/vendor/bootstrap/4.4.1/css/bootstrap.min.css"
             ],
               "scripts": [
-                "./assets/vendor/jquery/3.4.1/jquery.slim.min.js",
-                "./assets/vendor/popper/1.16.0/dist/umd/popper.min.js.map",
+                "./assets/vendor/jquery/3.4.1/jquery-3.4.1.slim.min",
+                "./assets/vendor/popper/1.16.0/dist/umd/popper.min.js",
                 "./assets/vendor/bootstrap/4.4.1/js/bootstrap.min.js"
               ]
           },
